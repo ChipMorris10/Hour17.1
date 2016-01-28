@@ -16,6 +16,29 @@ aside {
   width: 75px;
 }
 
+nav a.more {
+  position: relative;
+  z-index: 24;
+}
+
+nav a.more:hover {
+  z-index: 25;
+}
+
+nav a.more span {
+  display: none;
+}
+
+nav a.more:hover span {
+  font-weight: bold;
+  display: block;
+  position: absolute;
+  top: -35px;
+  width: 300px;
+  color: #ff0000;
+  line-height: 1em;
+}
+
 nav {
   float: left;
   margin: 185px 0px 0px 0px;
